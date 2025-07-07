@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
         ShowStatus("Welcome to the Pet Simulator!");
     }
 
-    // Abstraction: this hides the details of petting, speaking, etc.
+    // ABSTRACTION: this hides the details of petting, speaking, etc.
     private void DoAction(Pet pet)
     {
         pet.PetAnimal();
