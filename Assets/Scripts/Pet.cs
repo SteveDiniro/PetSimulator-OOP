@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// Abstraction (Pet is an abstractable base class, from with Cat & Dog are derived)
+// ABSTRACTION (Pet is an abstractable base class, from with Cat & Dog are derived)
 public class Pet
 {
     private string name;
     private int happiness;
 
-    // Encapsulation with get\set
+    // ENCAPSULATION with get\set
     public string Name
     {
         get { return name; }
